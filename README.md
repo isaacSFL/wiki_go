@@ -1,2 +1,10 @@
-# wiki_go
-Simple Wiki in Go
+# Simple Wiki in Go
+Following https://golang.org/doc/articles/wiki/ tutorial
+
+How to use:
+
+Compile: **go build wiki.go**
+
+Execute: **./wiki**
+
+Visit http://localhost:8080/view/Home
