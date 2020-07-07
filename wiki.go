@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	PagePath string = "../res/pages/"
+	PagePath string = "res/pages/"
 	PageViewRoute string = "/view/"
 	PageEditRoute string = "/edit/"
 	PageSaveRoute string = "/save/"
