@@ -3,8 +3,6 @@ Following https://golang.org/doc/articles/wiki/ tutorial
 
 How to use:
 
-Compile: **go build wiki.go**
-
-Execute: **./wiki**
+Compile & execute: **go run wiki.go**
 
 Visit http://localhost:8080/view/Home
