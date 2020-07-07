@@ -1,0 +1,15 @@
+<h1>{{.Title}}</h1>
+
+<p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+
+<div>{{printf "%s" .Body}}</div>
+<hr />
+<form id="create_page" name="create_page" onsubmit="redirect(); return false;">
+    <div>Create new page: <input name="page" id="page" type="text" /> <button type="submit" value="Create page">Create page</button></div>
+</form>
+
+<script>
+    function redirect() {
+        location.href = '/view/' + document.getElementById('page').value;
+    }
+</script>
